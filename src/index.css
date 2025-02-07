@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-gray-100: #e2e2e2;
+	--background-image-booting: url('/booting.png');
+}
+
+@layer base {
+	body {
+		@apply bg-gray-100;
+	}
+	section {
+		@apply min-h-svh flex justify-center items-center;
+	}
+}
+
+@layer components {
+	.container {
+		@apply mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+	}
+
+	.skills-container {
+		@apply bg-white text-black p-10 rounded-xl;
+	}
+
+	.skills-container-title {
+		@apply text-xl font-medium mb-6;
+	}
+
+	.project-img {
+		@apply max-w-md object-cover rounded-2xl shadow-[8px_8px_0px_#6b7280] border-1 border-black;
+	}
+}
