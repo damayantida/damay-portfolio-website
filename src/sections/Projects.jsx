@@ -21,7 +21,7 @@ const Projects = () => {
 
 	return (
 		<Element name='projects'>
-			<section className=' bg-blue-400 py-16 md:px-10 px-5 border-t-5 border-white text-white'>
+			<section className=' bg-blue-400 py-16 md:px-10 px-2 border-t-5 border-white text-white'>
 				<div className='container px-6 flex flex-col items-center my-8'>
 					<h2 className='text-4xl font-bold mb-8'>My Projects</h2>
 
