@@ -6,7 +6,7 @@ const GlitchCTA = (text) => {
 
 	return (
 		<motion.span
-			className='text-2xl md:text-3xl font-mono uppercase tracking-widest cursor-pointer mt-4'
+			className='text-xl md:text-3xl font-mono uppercase tracking-widest cursor-pointer mt-4'
 			animate={{
 				opacity: isHovered ? 1 : [1, 0, 1],
 				color: isHovered ? '#000000' : '#5E5E5E',
