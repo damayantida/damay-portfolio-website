@@ -38,7 +38,7 @@ const Projects = () => {
 								/>
 							</div>
 							<div className='max-w-md flex flex-col justify-between'>
-								<p className='text-lg max-sm:text-md text-justify'>
+								<p className='text-lg max-sm:text-md text-left'>
 									{currentProject.desc}
 								</p>
 								<div className='flex items-end justify-between flex-wrap gap-5'>
