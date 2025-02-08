@@ -6,7 +6,7 @@ const Hero = () => {
 		<Element name='home'>
 			<section className='relative pt-30 pb-20 max-lg:pt-26 max-lg:pb-18 max-md:pt-18 max-md:pb-16 bg-blue-400 flex items-center justify-center'>
 				<div className='container flex justify-center'>
-					<div className='w-90 h-90 sm:w-100 sm:h-100 md:w-120 md:h-120 bg-white flex flex-col justify-center items-center gap-3'>
+					<div className='w-90 h-80 sm:w-100 sm:h-90 md:w-120 md:h-110 bg-white flex flex-col justify-center items-center gap-3 lg:gap-4'>
 						<img
 							src='/hero-computer.svg'
 							alt='computer'
