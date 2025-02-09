@@ -8,7 +8,7 @@ import Footer from './sections/Footer';
 
 const App = () => {
 	return (
-		<main className='relative min-h-full w-full overflow-x-hidden border-5 border-black'>
+		<main className='relative min-h-full w-full overflow-x-hidden'>
 			<Header />
 			<Hero />
 			<AboutMe />

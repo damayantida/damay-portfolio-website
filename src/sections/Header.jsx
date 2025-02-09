@@ -6,7 +6,7 @@ const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<header className='fixed top-0 left-0 z-50 w-full py-4 transition-all duration-500 bg-white border-5 border-black'>
+		<header className='fixed top-0 left-0 z-50 w-full py-2 md:py-3 transition-all duration-500 bg-white'>
 			<div className='container mx-auto px-6 flex justify-between items-center'>
 				{/* Logo */}
 				<div className='text-xl font-bold'>Damay</div>
