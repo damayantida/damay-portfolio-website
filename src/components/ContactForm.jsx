@@ -64,7 +64,7 @@ export default function ContactForm() {
 				></textarea>
 				<button
 					type='submit'
-					className='bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-800 hover:to-gray-700 text-white py-2 px-4 rounded hover:bg-gray/90 font-medium transition'
+					className='bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-800 hover:to-gray-700 text-white cursor-pointer py-2 px-4 rounded hover:bg-gray/90 font-medium transition'
 				>
 					Send Message
 				</button>
