@@ -16,7 +16,7 @@ const Hero = () => {
 						<h3 className='text-3xl max-md:text-2xl max-sm:text-xl font-bold'>
 							Hi, I am
 						</h3>
-						<h1 className='text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-bold leading-16 max-lg:leading-14 max-md:leading-10 max-sm:leading-8'>
+						<h1 className='text-6xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl font-bold leading-16 max-lg:leading-14 max-md:leading-10 max-sm:leading-8 max-md:text-center'>
 							Damayanti Dwi Astuti
 						</h1>
 						<h5 className='text-xl max-md:text-lg max-sm:text-sm text-gray font-extrabold'>
