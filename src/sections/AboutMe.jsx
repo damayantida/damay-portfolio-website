@@ -24,7 +24,7 @@ const AboutMe = () => {
 		<Element name='about'>
 			<section
 				id='about'
-				className='py-16 bg-gradient-to-t from-black to-gray-900 border-t lg:border-t-2 border-white'
+				className='py-16 bg-gradient-to-t from-black to-gray-900 border-t lg:border-t-2 max-md:border-0 border-white'
 			>
 				<div className='container px-6 text-center flex flex-col items-center my-8'>
 					{/* Title */}
