@@ -21,11 +21,11 @@ const Projects = () => {
 
 	return (
 		<Element name='projects'>
-			<section className=' bg-blue-400 py-16 md:px-10 px-2 border-t-5 border-white text-white'>
-				<div className='container px-6 flex flex-col items-center my-8'>
+			<section className='py-16 bg-gradient-to-b from-black to-gray-900 md:px-10 border-t border-white text-white'>
+				<div className='container flex flex-col items-center my-8'>
 					<h2 className='text-4xl font-bold mb-8'>My Projects</h2>
 
-					<div className=' bg-white text-black rounded-xl border-2 border-black p-8 lg:px-10 flex flex-col items-center justify-center'>
+					<div className=' bg-white text-black p-8 lg:px-10 flex flex-col items-center justify-center'>
 						<h3 className='text-2xl md:3xl font-medium mb-8 text-center'>
 							{currentProject.title}
 						</h3>

@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import 'tailwindcss';
 
 @theme {
-	--color-gray-100: #e2e2e2;
-	--background-image-booting: url('/booting.png');
+	--font-afacad: 'Afacad', sans-serif;
+	--font-raleway: 'Raleway', sans-serif;
+	--font-montserrat: 'Montserrat', sans-serif;
+	--color-gray: #909090;
 }
 
 @layer base {
 	body {
-		@apply bg-gray-100;
+		@apply font-raleway bg-black text-white;
 	}
 	section {
 		@apply min-h-svh flex justify-center items-center;
@@ -16,7 +20,7 @@
 
 @layer components {
 	.container {
-		@apply mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+		@apply mx-auto max-w-7xl px-14 max-xl:px-12 max-lg:px-10 max-md:px-8 max-sm:px-6;
 	}
 
 	.skills-container {
@@ -29,5 +33,9 @@
 
 	.project-img {
 		@apply max-w-md object-cover rounded-2xl shadow-[8px_8px_0px_#6b7280] border-1 border-black;
+	}
+
+	.form {
+		@apply p-3 rounded bg-gray-100 text-black border border-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500;
 	}
 }

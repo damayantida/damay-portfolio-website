@@ -1,11 +1,4 @@
-import {
-	FaHtml5,
-	FaCss3Alt,
-	FaJs,
-	FaReact,
-	FaGithub,
-	FaNodeJs,
-} from 'react-icons/fa'; // Importing icons
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'; // Importing icons
 import {
 	SiVite,
 	SiNextdotjs,
@@ -19,7 +12,10 @@ import { Element } from 'react-scroll';
 const AboutMe = () => {
 	return (
 		<Element name='about'>
-			<section id='about' className='py-16 bg-gray-800 border-t-5 border-white'>
+			<section
+				id='about'
+				className='py-16 bg-gradient-to-t from-black to-gray-900 border-t lg:border-t-2 border-white'
+			>
 				<div className='container px-6 text-center flex flex-col items-center my-8'>
 					{/* Title */}
 					<h2 className='text-4xl font-bold text-white mb-8'>Who Am I?</h2>

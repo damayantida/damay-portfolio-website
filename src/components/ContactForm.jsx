@@ -34,7 +34,7 @@ export default function ContactForm() {
 	};
 
 	return (
-		<div className='max-w-sm md:w-md lg:w-lg'>
+		<div className='w-lg max-sm:w-sm max-md:md:w-md lg:w-lg'>
 			<form onSubmit={handleSubmit} className='flex flex-col space-y-4'>
 				<input
 					type='text'
@@ -42,7 +42,7 @@ export default function ContactForm() {
 					placeholder='Your Name'
 					value={formData.name}
 					onChange={handleChange}
-					className='p-3 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400'
+					className='form'
 					required
 				/>
 				<input
@@ -51,7 +51,7 @@ export default function ContactForm() {
 					placeholder='Your Email'
 					value={formData.email}
 					onChange={handleChange}
-					className='p-3 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400'
+					className='form'
 					required
 				/>
 				<textarea
@@ -59,12 +59,12 @@ export default function ContactForm() {
 					placeholder='Your Message'
 					value={formData.message}
 					onChange={handleChange}
-					className='p-3 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400 h-32'
+					className='form h-32'
 					required
 				></textarea>
 				<button
 					type='submit'
-					className='bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition'
+					className='bg-gradient-to-r from-gray-700 to-gray-600 hover:from-gray-800 hover:to-gray-700 text-white py-2 px-4 rounded hover:bg-gray/90 font-medium transition'
 				>
 					Send Message
 				</button>
