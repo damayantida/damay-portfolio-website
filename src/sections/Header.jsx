@@ -102,7 +102,7 @@ const Header = () => {
 
 			{/* Mobile Menu */}
 			{isOpen && (
-				<div className='lg:hidden bg-gray-200  mt-4 text-black'>
+				<div className='lg:hidden bg-gray-200 mt-4 text-black'>
 					<div className='flex flex-col items-center space-y-4 py-4'>
 						{['home', 'about', 'projects', 'contact'].map((section) => (
 							<LinkScroll
