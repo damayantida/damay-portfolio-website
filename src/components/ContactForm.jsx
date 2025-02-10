@@ -34,7 +34,7 @@ export default function ContactForm() {
 	};
 
 	return (
-		<div className='w-sm md:w-md lg:w-lg'>
+		<div className='w-[80%] max-w-xl p-8'>
 			<form onSubmit={handleSubmit} className='flex flex-col space-y-4'>
 				<input
 					type='text'

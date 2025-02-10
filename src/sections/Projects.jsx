@@ -25,7 +25,7 @@ const Projects = () => {
 				<div className='container flex flex-col items-center my-8'>
 					<h2 className='text-4xl font-bold mb-8'>My Projects</h2>
 
-					<div className=' bg-white text-black p-8 lg:px-10 flex flex-col items-center justify-center'>
+					<div className='bg-white text-black p-8 lg:px-10 flex flex-col items-center justify-center rounded-xl'>
 						<h3 className='text-2xl md:3xl font-medium mb-8 text-center'>
 							{currentProject.title}
 						</h3>
