@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-scroll';
+import { Link as LinkScroll } from 'react-scroll';
 import { twMerge } from 'tailwind-merge';
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY > 50) {
+			if (window.scrollY > 32) {
 				setScrolled(true);
 			} else {
 				setScrolled(false);
@@ -40,16 +40,20 @@ const Header = () => {
 				{/* Desktop Menu */}
 				<div className='hidden lg:flex space-x-6 xl:space-x-7 text-black max-w-1/3'>
 					{['home', 'about', 'projects', 'contact'].map((section) => (
-						<Link
+						<LinkScroll
 							key={section}
 							to={section}
+							offset={-65}
+							spy={true}
 							smooth={true}
 							duration={500}
-							className='cursor-pointer hover:text-gray-600 font-montserrat font-bold text-sm transition'
+							activeClass='active'
+							className='cursor-pointer hover:text-gray-600  font-montserrat font-bold text-sm transition'
 						>
 							{section.charAt(0).toUpperCase() + section.slice(1)}
-						</Link>
+						</LinkScroll>
 					))}
+					<LinkScroll></LinkScroll>
 				</div>
 
 				{/* Mobile Menu Button */}
@@ -101,16 +105,18 @@ const Header = () => {
 				<div className='lg:hidden bg-gray-200 border-t border-black mt-4 text-black'>
 					<div className='flex flex-col items-center space-y-4 py-4'>
 						{['home', 'about', 'projects', 'contact'].map((section) => (
-							<Link
+							<LinkScroll
 								key={section}
 								to={section}
+								offset={-65}
+								spy={true}
 								smooth={true}
 								duration={500}
-								className='cursor-pointer hover:text-gray-500 transition font-bold'
+								className='cursor-pointer hover:text-gray-600 transition font-bold'
 								onClick={() => setIsOpen(false)}
 							>
 								{section.charAt(0).toUpperCase() + section.slice(1)}
-							</Link>
+							</LinkScroll>
 						))}
 					</div>
 				</div>

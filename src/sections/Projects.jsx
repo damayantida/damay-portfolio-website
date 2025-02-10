@@ -20,8 +20,8 @@ const Projects = () => {
 	};
 
 	return (
-		<Element name='projects'>
-			<section className='py-16 bg-gradient-to-b from-black to-gray-900 md:px-10 border-t border-white text-white'>
+		<section className='py-16 bg-gradient-to-b from-black to-gray-900 md:px-10 border-t border-white text-white'>
+			<Element name='projects'>
 				<div className='container flex flex-col items-center my-8'>
 					<h2 className='text-4xl font-bold mb-8'>My Projects</h2>
 
@@ -98,8 +98,8 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
-			</section>
-		</Element>
+			</Element>
+		</section>
 	);
 };
 
