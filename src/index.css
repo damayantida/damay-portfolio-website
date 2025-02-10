@@ -27,6 +27,10 @@
 		@apply bg-white text-black p-10 rounded-xl;
 	}
 
+	.skill {
+		@apply flex flex-col items-center justify-center text-center;
+	}
+
 	.skill-text {
 		@apply text-sm;
 	}

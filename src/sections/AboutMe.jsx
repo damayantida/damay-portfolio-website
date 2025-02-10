@@ -41,7 +41,7 @@ const AboutMe = () => {
 
 					{/* Skills Section */}
 					<h3 className='text-3xl font-medium text-white mb-8'>My Skills</h3>
-					<div className='skills-container grid grid-cols-4 gap-6 lg:grid-cols-6'>
+					<div className='skills-container grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-6'>
 						<div className='skill'>
 							<FaHtml5 className='text-4xl mx-auto mb-2' />
 							<p className='skill-text'>HTML</p>
