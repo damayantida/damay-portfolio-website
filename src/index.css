@@ -27,8 +27,8 @@
 		@apply bg-white text-black p-10 rounded-xl;
 	}
 
-	.skills-container-title {
-		@apply text-xl font-medium mb-6;
+	.skill-text {
+		@apply text-sm;
 	}
 
 	.project-img {

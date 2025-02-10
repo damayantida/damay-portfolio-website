@@ -1,4 +1,12 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa'; // Importing icons
+import {
+	FaHtml5,
+	FaCss3Alt,
+	FaJs,
+	FaReact,
+	FaGit,
+	FaGithub,
+} from 'react-icons/fa'; // Importing icons
+
 import {
 	SiVite,
 	SiNextdotjs,
@@ -6,16 +14,18 @@ import {
 	SiFramer,
 	SiThreedotjs,
 	SiTypescript,
+	SiNodedotjs,
+	SiMongodb,
 } from 'react-icons/si';
 import { Element } from 'react-scroll';
 
 const AboutMe = () => {
 	return (
-		<section
-			id='about'
-			className='py-16 bg-gradient-to-t from-black to-gray-900 border-t lg:border-t-2 border-white'
-		>
-			<Element name='about'>
+		<Element name='about'>
+			<section
+				id='about'
+				className='py-16 bg-gradient-to-t from-black to-gray-900 border-t lg:border-t-2 border-white'
+			>
 				<div className='container px-6 text-center flex flex-col items-center my-8'>
 					{/* Title */}
 					<h2 className='text-4xl font-bold text-white mb-8'>Who Am I?</h2>
@@ -31,68 +41,69 @@ const AboutMe = () => {
 
 					{/* Skills Section */}
 					<h3 className='text-3xl font-medium text-white mb-8'>My Skills</h3>
-					<div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-						<div className='skills-container'>
-							<h4 className='skills-container-title'>Core Web</h4>
-							<div className='grid grid-cols-2 gap-6'>
-								<div className='skill'>
-									<FaHtml5 className=' text-4xl mx-auto mb-2' />
-									<p>HTML</p>
-								</div>
-								<div className='skill'>
-									<FaCss3Alt className=' text-4xl mx-auto mb-2' />
-									<p>CSS</p>
-								</div>
-								<div className='skill'>
-									<FaJs className=' text-4xl mx-auto mb-2' />
-									<p>JavaScript</p>
-								</div>
-								<div className='skill'>
-									<SiTypescript className=' text-4xl mx-auto mb-2' />
-									<p>TypeScript</p>
-								</div>
-							</div>
+					<div className='skills-container grid grid-cols-4 gap-6 lg:grid-cols-6'>
+						<div className='skill'>
+							<FaHtml5 className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>HTML</p>
+						</div>
+						<div className='skill'>
+							<FaCss3Alt className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>CSS</p>
+						</div>
+						<div className='skill'>
+							<FaJs className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>JavaScript</p>
+						</div>
+						<div className='skill'>
+							<SiTypescript className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>TypeScript</p>
 						</div>
 
-						<div className='skills-container'>
-							<h4 className='skills-container-title'>Frameworks & Tools</h4>
-							<div className='grid grid-cols-2 gap-6'>
-								<div className='skill'>
-									<FaReact className=' text-4xl mx-auto mb-2' />
-									<p>React</p>
-								</div>
-								<div className='skill'>
-									<SiVite className=' text-4xl mx-auto mb-2' />
-									<p>Vite</p>
-								</div>
-								<div className='skill'>
-									<SiNextdotjs className=' text-4xl mx-auto mb-2' />
-									<p>Next.js</p>
-								</div>
-								<div className='skill'>
-									<SiTailwindcss className=' text-4xl mx-auto mb-2' />
-									<p>Tailwind CSS</p>
-								</div>
-							</div>
+						<div className='skill'>
+							<FaReact className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>React</p>
+						</div>
+						<div className='skill'>
+							<SiVite className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Vite</p>
+						</div>
+						<div className='skill'>
+							<SiNextdotjs className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Next.js</p>
+						</div>
+						<div className='skill'>
+							<SiTailwindcss className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Tailwind CSS</p>
 						</div>
 
-						<div className='skills-container'>
-							<h4 className='skills-container-title'>Animation & 3D</h4>
-							<div className='grid grid-cols-2 gap-6'>
-								<div className='skill'>
-									<SiFramer className=' text-4xl mx-auto mb-2' />
-									<p>Framer Motion</p>
-								</div>
-								<div className='skill'>
-									<SiThreedotjs className=' text-4xl mx-auto mb-2' />
-									<p>Three.js</p>
-								</div>
-							</div>
+						<div className='skill'>
+							<SiFramer className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Framer Motion</p>
+						</div>
+						<div className='skill'>
+							<SiThreedotjs className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Three.js (Basic)</p>
+						</div>
+						<div className='skill'>
+							<SiNodedotjs className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Node.js (Basic)</p>
+						</div>
+						<div className='skill'>
+							<SiMongodb className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>MongoDB (Basic)</p>
+						</div>
+						<div className='skill'>
+							<FaGit className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Git</p>
+						</div>
+						<div className='skill'>
+							<FaGithub className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Github</p>
 						</div>
 					</div>
 				</div>
-			</Element>
-		</section>
+			</section>
+		</Element>
 	);
 };
 
