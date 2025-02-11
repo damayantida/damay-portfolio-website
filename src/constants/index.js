@@ -101,4 +101,33 @@ export const myProjects = [
 			},
 		],
 	},
+	{
+		title: 'OtakuLog - Anime Search Platform',
+		desc: 'A sleek and intuitive anime search platform with real-time search and infinite scrolling. Features a dynamic trending system that tracks the most searched anime, offering a seamless and engaging browsing experience. More features coming soon!',
+		src: '/portfolio-4.png',
+		alt: 'portfolio 4',
+		href: 'https://otakulog-damayanti-dwi-astutis-projects.vercel.app/',
+		tags: [
+			{
+				id: 1,
+				name: 'React',
+				path: '/react.svg',
+			},
+			{
+				id: 2,
+				name: 'Next.js',
+				path: '/nextjs.svg',
+			},
+			{
+				id: 3,
+				name: 'Tailwind CSS',
+				path: '/tailwind.svg',
+			},
+			{
+				id: 4,
+				name: 'Typescript',
+				path: '/typescript.svg',
+			},
+		],
+	},
 ];
