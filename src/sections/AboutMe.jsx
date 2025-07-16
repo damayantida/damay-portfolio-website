@@ -14,8 +14,7 @@ import {
 	SiFramer,
 	SiThreedotjs,
 	SiTypescript,
-	SiNodedotjs,
-	SiMongodb,
+	SiVuedotjs,
 } from 'react-icons/si';
 import { Element } from 'react-scroll';
 
@@ -64,6 +63,10 @@ const AboutMe = () => {
 							<p className='skill-text'>React</p>
 						</div>
 						<div className='skill'>
+							<SiVuedotjs className='text-4xl mx-auto mb-2' />
+							<p className='skill-text'>Vue</p>
+						</div>
+						<div className='skill'>
 							<SiVite className='text-4xl mx-auto mb-2' />
 							<p className='skill-text'>Vite</p>
 						</div>
@@ -83,14 +86,6 @@ const AboutMe = () => {
 						<div className='skill'>
 							<SiThreedotjs className='text-4xl mx-auto mb-2' />
 							<p className='skill-text'>Three.js (Basic)</p>
-						</div>
-						<div className='skill'>
-							<SiNodedotjs className='text-4xl mx-auto mb-2' />
-							<p className='skill-text'>Node.js (Basic)</p>
-						</div>
-						<div className='skill'>
-							<SiMongodb className='text-4xl mx-auto mb-2' />
-							<p className='skill-text'>MongoDB (Basic)</p>
 						</div>
 						<div className='skill'>
 							<FaGit className='text-4xl mx-auto mb-2' />
