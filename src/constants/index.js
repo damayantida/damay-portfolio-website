@@ -130,4 +130,33 @@ export const myProjects = [
 			},
 		],
 	},
+	{
+		title: 'Task Management',
+		desc: 'This is a simple Task Management Application built with Next.js, TypeScript, Tailwind CSS, and Jotai. The app allows users to create, edit, delete, and manage tasks using drag-and-drop functionality.',
+		src: '/portfolio-5.png',
+		alt: 'portfolio 5',
+		href: 'https://task-manager-damay.vercel.app/',
+		tags: [
+			{
+				id: 1,
+				name: 'React',
+				path: '/react.svg',
+			},
+			{
+				id: 2,
+				name: 'Next.js',
+				path: '/nextjs.svg',
+			},
+			{
+				id: 3,
+				name: 'Tailwind CSS',
+				path: '/tailwind.svg',
+			},
+			{
+				id: 4,
+				name: 'Typescript',
+				path: '/typescript.svg',
+			},
+		],
+	},
 ];
